@@ -1,0 +1,5 @@
+C:\Projects\Angular\ContactAPI\ContactDAL\ContactDAL\bin\Debug\ContactDAL.dll.config
+C:\Projects\Angular\ContactAPI\ContactDAL\ContactDAL\bin\Debug\ContactDAL.dll
+C:\Projects\Angular\ContactAPI\ContactDAL\ContactDAL\bin\Debug\ContactDAL.pdb
+C:\Projects\Angular\ContactAPI\ContactDAL\ContactDAL\obj\Debug\ContactDAL.dll
+C:\Projects\Angular\ContactAPI\ContactDAL\ContactDAL\obj\Debug\ContactDAL.pdb

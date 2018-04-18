@@ -1,0 +1,20 @@
+
+CREATE TABLE [dbo].[tblContact](
+	[ContactID] [numeric](18, 0) IDENTITY(1,1) NOT NULL,
+	[FirstName] [varchar](50) NOT NULL,
+	[LastName] [varchar](50) NOT NULL,
+	[Email] [varchar](50) NOT NULL,
+	[PhoneNumber] [varchar](50) NOT NULL,
+	[Status] [bit] NOT NULL,
+ CONSTRAINT [PK_tblContact] PRIMARY KEY CLUSTERED 
+(
+	[ContactID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET ANSI_PADDING OFF
+GO
+
+
+ALTER TABLE [dbo].[tblContact] ADD  CONSTRAINT [DF_tblContact_Status]  DEFAULT ((1)) FOR [Status]
+GO

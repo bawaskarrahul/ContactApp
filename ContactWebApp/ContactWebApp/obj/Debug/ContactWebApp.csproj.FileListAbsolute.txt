@@ -1,0 +1,8 @@
+C:\Projects\Angular\ContactWebApp\ContactWebApp\obj\Debug\ContactWebApp.csprojResolveAssemblyReference.cache
+C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\ContactWebApp.dll
+C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\ContactWebApp.pdb
+C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\Newtonsoft.Json.dll
+C:\Projects\Angular\ContactWebApp\ContactWebApp\obj\Debug\ContactWebApp.dll
+C:\Projects\Angular\ContactWebApp\ContactWebApp\obj\Debug\ContactWebApp.pdb
+C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\nunit.framework.dll
+C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\nunit.framework.xml

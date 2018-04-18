@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\ContactWebApp.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-04-18" time="11:25:30">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.4927" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="WIN-9ENA4MKAVHF" user="TANVI" user-domain="WIN-9ENA4MKAVHF" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Projects\Angular\ContactWebApp\ContactWebApp\bin\ContactWebApp.dll" executed="True" result="Failure" success="False" time="0.182" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ContactWebApp" executed="True" result="Failure" success="False" time="0.172" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="nUnit" executed="True" result="Failure" success="False" time="0.170" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="TestRestClient" executed="True" result="Failure" success="False" time="0.165" asserts="0">
+                <results>
+                  <test-case name="ContactWebApp.nUnit.TestRestClient.TestAuthToken" executed="True" result="Error" success="False" time="0.131" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                      <stack-trace><![CDATA[at ContactWebApp.Common.RestClient.get_baseurl() in C:\Projects\Angular\ContactWebApp\ContactWebApp\Common\RestClient.cs:line 111
+at ContactWebApp.Common.RestClient.GetJason(String webmethod, String token) in C:\Projects\Angular\ContactWebApp\ContactWebApp\Common\RestClient.cs:line 22
+at ContactWebApp.Common.RestClient.GetString(String webmethod) in C:\Projects\Angular\ContactWebApp\ContactWebApp\Common\RestClient.cs:line 68
+at ContactWebApp.Common.RestClient.GetAuthToken() in C:\Projects\Angular\ContactWebApp\ContactWebApp\Common\RestClient.cs:line 119
+at ContactWebApp.nUnit.TestRestClient.TestAuthToken() in C:\Projects\Angular\ContactWebApp\ContactWebApp\nUnit\TestRestClient.cs:line 31
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
